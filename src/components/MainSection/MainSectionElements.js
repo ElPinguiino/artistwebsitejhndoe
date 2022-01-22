@@ -18,11 +18,7 @@ export const MainSectionBackgroundContainer = styled.div`
 `
 
 export const MusicPlayerContainer = styled.div`
-    margin-top: 25rem;
-    border: 6px solid black;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+
 `
 
 export const ImageBackground = styled.img`

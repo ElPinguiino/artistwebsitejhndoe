@@ -5,8 +5,7 @@ import '../../assets/fonts/fonts.css';
 
 
 export const Nav = styled.nav`
-    background: ${({ scrollNav }) => (scrollNav ? 'red' : 'transparent')};
-    height: 120px;
+    background: ${({ scrollNav }) => (scrollNav ? 'black' : 'transparent')};
     margin-top: -120px;
     width: 100%;
     display: flex;
@@ -49,7 +48,7 @@ export const NavLogo = styled(LinkR)`
     text-decoration: none;
 
     @media screen and (max-width: 480px) {
-        margin-top: -2rem;
+
     }
 `
 

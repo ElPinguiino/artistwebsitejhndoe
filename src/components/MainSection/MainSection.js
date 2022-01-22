@@ -3,7 +3,7 @@ import AboutSection from './AboutSection/AboutSection'
 
 import Image from '../../assets/jhndoe.jpg';
 import Footer from '../Footer/Footer';
-import MusicPlayer from './MusicPlayer/MusicPlayer';
+import Player from './Player/Player';
 
 const MainSection = () => {
     return (
@@ -11,7 +11,7 @@ const MainSection = () => {
             <MainSectionMainContainer>
                 <MainSectionBackgroundContainer>
                     <MusicPlayerContainer>
-                        <MusicPlayer />
+                        <Player />
                     </MusicPlayerContainer>
                     <AboutSection />
                     <Footer />

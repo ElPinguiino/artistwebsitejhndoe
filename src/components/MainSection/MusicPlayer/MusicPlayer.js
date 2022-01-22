@@ -1,6 +1,5 @@
 import React from 'react'
 import { MusicPlayerMainContainer, RecordPlayerContainer, RecordPlayer, RecordLabel, StyledH2, StyledH3, RecordPlayerSpindle, ArmContainer, KnobWeightBottom, KnobWeightTop, RecordPlayerArm, PlayButton, RecordPlayerSpeaker, KnobVolumeBottom, Down, Up } from './MusicPlayerElements'
-// import './musicplayer.scss';
 
 const MusicPlayer = () => {
     return (
