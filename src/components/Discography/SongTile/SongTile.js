@@ -14,7 +14,7 @@ const SongTile = () => {
     }
 
     const getSongs = async () => {
-        const response = await axios.get('https://genius.p.rapidapi.com/artists/2829065/songs', options)
+        const response = await axios.get('https://genius.p.rapidapi.com/songs/2829065', options)
         setSongs(response.data.response.songs)
         console.log(response.data.response.songs[0])
         console.log(response.data.response.songs[1])
